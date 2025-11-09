@@ -64,7 +64,7 @@ const { checkout } = useSelector((state) => state.checkout);
                             <p className="text-sm text-gray-500">{item.color} | {item.size}</p>
                         </div>
                         <div className="ml-auto text-right">
-                            <p className="text-md">₹{item.price}</p>
+                            <p className="text-md">Rs.{item.price}</p>
                             <p className="text-sm text-gray-500">{item.quantity}</p>
                         </div>
                     </div>

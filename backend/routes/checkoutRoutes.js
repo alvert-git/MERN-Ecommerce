@@ -204,7 +204,7 @@ router.put("/:id/pay", protect, async (req, res) => {
 //       { pidx },
 //       {
 //         headers: {
-//           Authorization: `Key ${process.env.KHALTI_LIVE_SECRET}`,
+//           Authorization: `Key ${process.env.KHALTI_LIVE_}`,
 //         },
 //       }
 //     );

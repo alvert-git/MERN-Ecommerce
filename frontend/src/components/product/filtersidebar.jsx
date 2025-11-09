@@ -198,7 +198,7 @@ const colors = [
                         min={0} max={100}
                         className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer" />
                         <div className="flex justify-between textgray-600 m-2">
-                            <span>₹0</span><span>₹{priceRange[1]}</span>
+                            <span>Rs.0</span><span>Rs.{priceRange[1]}</span>
                           
                         </div>
                     </div>

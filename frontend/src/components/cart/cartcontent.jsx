@@ -37,7 +37,7 @@ const CartContent = ({cart, userId, guestId}) => {
                 </div>
             </div>
             <div>
-                <p>₹{product.price.toLocaleString()}</p>
+                <p>Rs.{product.price.toLocaleString()}</p>
                 <button onClick={() => handleRemoveFromCart(product.productId, product.size, product.color)}>
                     <RiDeleteBin3Line className="h-6 w-6 mt-2 text-black-600"></RiDeleteBin3Line>
                 </button>

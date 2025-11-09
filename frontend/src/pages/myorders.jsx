@@ -54,7 +54,7 @@ if(error){
                                         : "N/A"}
                                     </td>
                                     <td className="py-2 px-2 sm:py-4 sm:px-4">{order.orderItems.length}</td>
-                                    <td className="py-2 px-2 sm:py-4 sm:px-4">₹{order.totalPrice}</td>
+                                    <td className="py-2 px-2 sm:py-4 sm:px-4">Rs.{order.totalPrice}</td>
                                     <td className="py-2 px-2 sm:py-4 sm:px-4">
                                     <span className={`${ order.isPaid ? " bg-green-100 text-green-500" : "text-red-500 bg-red-100"} px-2 py-1 rounded-full text-xs sm:text-sm font-medium`}>
                                     {order.isPaid ? "Paid" : "Pending"}</span>

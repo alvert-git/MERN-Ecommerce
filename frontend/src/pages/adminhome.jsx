@@ -31,7 +31,7 @@ useEffect(() => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="p-4 shadow-md rounded-lg">
                     <h2 className="text-xl font-semibold ">Revenue</h2>
-                    <p className="text-2xl">₹{totalSales.toFixed(2)}</p>
+                    <p className="text-2xl">Rs.{totalSales.toFixed(2)}</p>
                 </div>
                 <div className="p-4 shadow-md rounded-lg">
                     <h2 className="text-xl font-semibold ">Total Orders</h2>
@@ -66,7 +66,7 @@ useEffect(() => {
                                         className="border-b hover:border-gray-200 cursor-pointer">
                                             <td className=" p-4">{order._id}</td>
                                             <td className="p-4">{order.user.name}</td>
-                                            <td className="p-4">₹{order.totalPrice}</td>
+                                            <td className="p-4">Rs.{order.totalPrice}</td>
                                             <td className="p-4">{order.status}</td>
                                         </tr>
                                     ))
