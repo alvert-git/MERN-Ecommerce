@@ -132,7 +132,7 @@ app.use("/api/admin/users", adminRoutes);
 app.use("/api/admin/products", productadminRoutes);
 app.use("/api/admin/orders", adminorderRoutes);
 
-// app.listen(PORT, () => {
-//   console.log(`server is running on ${PORT}`);
-// });
-module.export = app
+app.listen(PORT, () => {
+  console.log(`server is running on ${PORT}`);
+});
+// module.export = app
