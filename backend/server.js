@@ -25,7 +25,7 @@ dotenv.config();
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5173", // Your frontend URL
+    origin: `${process.env.VITE_FRONTEND_URL}`, // Your frontend URL
     credentials: true, // This is the key line
   })
 );
@@ -46,7 +46,7 @@ passport.use(
     {
       clientID: process.env.Google_Client_ID,
       clientSecret: process.env.Google_Client_secrets,
-      callbackURL: "http://localhost:9000/auth/google/callback",
+      callbackURL: `${process.env.VITE_BACKEND_URL}/auth/google/callback`,
     },
     async (accessToken, refreshToken, profile, done) => {
       try {

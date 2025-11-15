@@ -29,7 +29,7 @@ router.get(
     });
 
     // Redirect to the frontend with no sensitive data in the URL
-    res.redirect(`http://localhost:5173/oauth-success`);
+    res.redirect(`${process.env.VITE_FRONTEND_URL}/oauth-success`);
   }
 );
 
