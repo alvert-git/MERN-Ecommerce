@@ -10,7 +10,6 @@ const cartRoutes = require("./routes/cartRoutes");
 const checkoutRoutes = require("./routes/checkoutRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
-const subscribeRoute = require("./routes/subscribeRoute");
 const adminRoutes = require("./routes/adminRoutes");
 const productadminRoutes = require("./routes/productadminRoutes");
 const adminorderRoutes = require("./routes/adminorderRoutes");
@@ -127,12 +126,13 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/checkout", checkoutRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/upload", uploadRoutes);
-app.use("/api", subscribeRoute);
+
 
 app.use("/api/admin/users", adminRoutes);
 app.use("/api/admin/products", productadminRoutes);
 app.use("/api/admin/orders", adminorderRoutes);
 
-app.listen(PORT, () => {
-  console.log(`server is running on ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`server is running on ${PORT}`);
+// });
+module.export = app

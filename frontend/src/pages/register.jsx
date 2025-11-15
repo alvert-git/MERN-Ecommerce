@@ -48,7 +48,7 @@ const Register = () => {
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8 md:p-12">
         <form onSubmit={handleSubmit} className="w-full max-w-md bg-white p-8 rounded-lg border shadow-sm">
             <div className="flex justify-center mb-6">
-                <h2 className="text-xl font-medium">OceanKart</h2>
+                <h2 className="text-xl font-medium">Ecommerce</h2>
             </div>
             <h2 className="text-2xl font-bold  text-centermb-4">Hey there!</h2>
             <p className="text-center mb-6">
@@ -72,7 +72,7 @@ const Register = () => {
                
             </div>
              <button type="submit"
-             className="w-full bg-black text-white p-2 rounded-lg font-semibold hover:bg-gray-800 transition">Sign In</button>
+             className="w-full bg-black text-white p-2 rounded-lg font-semibold hover:bg-gray-800 transition">Sign Up</button>
              <p className="mt-6 text-center text-sm">Already have an account?
              <Link to={`/login?redirect=${encodeURIComponent(redirect)}`} 
              className="text-blue-500">

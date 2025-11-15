@@ -53,7 +53,7 @@ const Login = () => {
         <form onSubmit={handleSubmit} 
         className="w-full max-w-md bg-white p-8 rounded-lg border shadow-sm">
             <div className="flex justify-center mb-6">
-                <h2 className="text-xl font-medium">OceanKart</h2>
+                <h2 className="text-xl font-medium">Ecommerce</h2>
             </div>
             <h2 className="text-2xl font-bold  text-centermb-4">Hey there!</h2>
             <p className="text-center mb-6">
@@ -72,7 +72,7 @@ const Login = () => {
                
             </div>
              <button type="submit"
-             className="w-full bg-black text-white p-2 rounded-lg font-semibold hover:bg-gray-800 transition">{ loading? "loading" : "Sign Up"}</button>
+             className="w-full bg-black text-white p-2 rounded-lg font-semibold hover:bg-gray-800 transition">{ loading? "loading" : "Sign In"}</button>
 
              <button onClick={handleGoogle} className="flex justify-between items-center border border-black rounded-3xl px-3 py-2 mx-auto mt-4">
                 

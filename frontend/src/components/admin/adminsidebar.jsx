@@ -18,7 +18,7 @@ const AdminSidebar = () => {
     return(
     <div className="p-6">
         <div className="mb-6">
-            <Link to="/admin" className="font-medium text-2xl font-kapakana">Ocean Kart</Link>
+            <Link to="/admin" className="font-medium text-2xl font-kapakana">Ecommerce</Link>
         </div>
         <h2 className="text-xl font-medium mb-6 text-center">Admin Dashboard</h2>
         <nav className="flex flex-col space-y-2">
